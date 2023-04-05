@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 	int N;
-	cout << "Aleksandar Aleksandrov Stoychev 361222011 grupa 20a\n";
+	
 	cout << "Da se systavi programa za obrabotka na masiva A[N,N], kadeto dannite sa celi chisla v intervala [-1000;1000]. Programata da izvyrshi slednite deistviq:\n";
 	cout << "-otpechatvane na uslovieto na zadachata;\n";
 	cout << "-otpechatvane na imenata na avtora na programata;\n:";
@@ -13,6 +13,7 @@ int main()
 	cout << "a) da se obrazuva ednomeren masiv C elementite, koito sa elementite ot masiva A popadashti v daden interval [K-L]  ;\n";
 	cout << "b) polucheniqt masiv da se sortira po golemina;\n";
 	cout << "-otpechatvane na poluchenite rezultati sled obrabotka a) i sled obrabotka b)\n";
+	cout << "Aleksandar Aleksandrov Stoychev 361222011 grupa 20a\n";
 	cin >> N;
 	// read array
 	int** A = new int* [N];
